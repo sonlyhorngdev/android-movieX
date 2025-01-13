@@ -24,6 +24,9 @@
         <activity android:name=".ui.view.login.LoginActivity">
 
         </activity>
+        <activity android:name=".ui.view.login.CreateNewAccount">
+
+        </activity>
     </application>
 
 </manifest>
