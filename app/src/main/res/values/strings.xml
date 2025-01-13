@@ -14,6 +14,12 @@
     <string name="create_new_account">Create Account</string>
     <string name="agree_with">Agree with</string>
     <string name="terms_condition">Terms &amp; Condition</string>
-    <string name="create_new_account_sub">Fil your information below or register
- with your social ascount.</string>
+    <string name="create_new_account_sub">Fil your information below or register with your social account.</string>
+
+    <!-- Create new Account text -->
+    <string name="verify_code">Verify Code</string>
+    <string name="verify_code_sub">Please enter the  code we just sent to email</string>
+    <string name="email_demo">lyhorngson@gmail.com</string>
+    <string name="did_not_receive_otp">Didn’t receive OTP?</string>
+    <string name="resend_code">Resend Code</string>
 </resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/space_24">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/verify_code"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_32"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/verify_code_sub"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_8"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/email_demo"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_size_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_24"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_email">
+
+            <EditText
+                android:id="@+id/et_code_1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="@dimen/space_8"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:maxLength="1"
+                android:background="@drawable/item_stoke_8"
+                android:hint="•" />
+
+            <EditText
+                android:id="@+id/et_code_2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="@dimen/space_8"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:maxLength="1"
+                android:background="@drawable/item_stoke_8"
+                android:hint="•" />
+
+            <EditText
+                android:id="@+id/et_code_3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="@dimen/space_8"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:maxLength="1"
+                android:background="@drawable/item_stoke_8"
+                android:hint="•" />
+
+            <EditText
+                android:id="@+id/et_code_4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="@dimen/space_8"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:maxLength="1"
+                android:background="@drawable/item_stoke_8"
+                android:hint="•" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
