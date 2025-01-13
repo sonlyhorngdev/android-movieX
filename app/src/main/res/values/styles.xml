@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Define the theme with transparent status bar and Poppins font -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Apply Poppins font globally -->
+        <item name="android:fontFamily">@font/poppins_regular</item>
+
+        <!-- Make the status bar transparent -->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!-- Optional: Customize other attributes like color, etc. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

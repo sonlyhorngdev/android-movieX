@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Movie X</string>
+    <string name="sigin_in">Sign In</string>
+    <string name="sigin_up">Sign Up</string>
+    <string name="sigin_in_sub">Hi Welcome Back. your’ve been missed</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="dont_have_an_account">Dont nave an account?</string>
+</resources>

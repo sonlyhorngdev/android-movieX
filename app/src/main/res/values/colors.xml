@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#4C9580</color>
+    <color name="colorPrimaryDark">#3A6F60</color>
+    <color name="colorAccent">#FF6F61</color>
+
+    <!-- Custom Colors -->
+    <color name="customBackground">#F0F0F0</color>
+    <color name="customTextColor">#212121</color>
+    <color name="customButtonColor">#4C9580</color>
+    <color name="customBorderColor">#D1D1D1</color>
+
+    <!-- Define text colors -->
+    <color name="color_text_primary">#000000</color> <!-- Primary text color -->
+    <color name="color_text_secondary">#888888</color> <!-- Secondary text color -->
+    <color name="color_text_highlight">#FF4081</color> <!-- Highlight text color -->
+    <color name="color_text_disabled">#B0B0B0</color> <!-- Disabled text color -->
+</resources>
