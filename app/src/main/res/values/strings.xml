@@ -18,8 +18,15 @@
 
     <!-- Create new Account text -->
     <string name="verify_code">Verify Code</string>
+    <string name="welcome">Welcome</string>
+    <string name="verify">Verify</string>
     <string name="verify_code_sub">Please enter the  code we just sent to email</string>
     <string name="email_demo">lyhorngson@gmail.com</string>
     <string name="did_not_receive_otp">Didn’t receive OTP?</string>
     <string name="resend_code">Resend Code</string>
+    <string name="successful">Successful!</string>
+    <string name="start_now">Start Now</string>
+    <string name="successful_sub">You have success registered
+in our app and start working in it.</string>
+
 </resources>
