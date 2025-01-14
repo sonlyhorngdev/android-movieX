@@ -18,7 +18,8 @@
 
     <!-- Create new Account text -->
     <string name="verify_code">Verify Code</string>
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Welcome Pharmacy</string>
+    <string name="welcome_sub">Caring for Your Health, One Step at a Time</string>
     <string name="verify">Verify</string>
     <string name="verify_code_sub">Please enter the  code we just sent to email</string>
     <string name="email_demo">lyhorngson@gmail.com</string>
