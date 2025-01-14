@@ -20,4 +20,7 @@
     <color name="color_text_highlight">#FF4081</color> <!-- Highlight text color -->
     <color name="color_text_disabled">#B0B0B0</color> <!-- Disabled text color -->
     <color name="dark_grey">#7D7C7C</color>
+
+    <!-- Bg Colors -->
+    <color name="bg_primary_light">#E1FAFC</color>
 </resources>
