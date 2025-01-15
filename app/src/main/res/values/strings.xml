@@ -30,4 +30,9 @@
     <string name="successful_sub">You have success registered
 in our app and start working in it.</string>
 
+
+    <!-- Home Screen Text -->
+    <string name="banner_title">Order Medicine</string>
+    <string name="banner_title_sub">Upload Prescription and tell us what you need. We do the rest</string>
+
 </resources>
