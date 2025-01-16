@@ -48,4 +48,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    // Retrofit for making network calls
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.okhttp)
+
+    // OkHttp Logging Interceptor (optional)
+    implementation(libs.logging.interceptor)
+    implementation ("androidx.security:security-crypto:1.1.0-alpha03")
+
 }

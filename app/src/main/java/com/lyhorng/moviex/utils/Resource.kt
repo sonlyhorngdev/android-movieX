@@ -1,4 +1,4 @@
-package com.lyhorng.moviex.util
+package com.lyhorng.moviex.utils
 //This is a wrapper class to represent success and error states for data loading.
 sealed  class Resource<T> {
     class Success<T>(val data: T) : Resource<T>()
